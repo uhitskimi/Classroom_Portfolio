@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: auto 0;
+    padding: 0;
+}
+
+body { 
+    font-family: 'Poppins', sans-serif;
+    background-color: #C9B6F9;
+}
+
+h1, h2 {
+    color: #EFEAFE;
+    text-align: center;
+}
+
+h2 {
+    padding-bottom: 0.5rem;
+}
+
+p {
+    color: #fff;
+    padding-top: 2rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 2rem;
+}
+
+.horizontal-bar {
+    border: 2px solid #8A72C7;
+    padding: 1rem;
+    background-color:#8A72C7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* Navigation Bar Links */
+
+
+li {
+    display: inline;
+    margin: 0;
+    padding-left: 6rem;
+    line-height: 4rem;
+}
+
+a:link {
+    color: #EFEAFE;
+}
+
+a:visited {
+    color: #C9B6F9;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+a:active {
+    color: #9A62C4;
+}
+
+/* End of the Navigation Bar */
+
+/* The container of me and about me */
+
+.introduction {
+    border: 15px solid #8A72C7;
+  border-radius: 10px;
+  background-color: #8A72C7;
+  max-width: 50%;
+  display: flex;
+  float: center;
+  margin: auto;
+}
+
+.introduction p {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    flex-shrink: 3;
+  }
+
+  img { 
+    max-width: 50%;
+    border-radius: 5px;
+  }
+
+  footer p {
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
